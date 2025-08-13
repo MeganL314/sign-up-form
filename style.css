@@ -22,17 +22,20 @@
 
 
 .logo-background {
-    background-color:  rgba(17, 16, 16, 0.424);
+    background-color:  rgba(17, 16, 16, 0.5);
     display: flex;
     flex-direction: column;
     align-items: center;
     position: absolute;
+    inset-block-start: 100px;
+    color: white;
 }
 
 .logo-contents {
     display: flex;
     padding: 80px;
     padding-right: 100px;
+
 }
 
 .logo-font {
@@ -46,4 +49,8 @@
 
 .logo-contents + div {
     margin-top: auto;
+}
+
+a {
+    color: white;
 }
