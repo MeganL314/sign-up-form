@@ -24,12 +24,38 @@
             </div>
         </div>
         <div class="right-side">
-            <div>This is not a real online service! Sign up <em>now</em> to get started.</div>
+            <div class="right-title">This is not a real online service! Sign up <em>now</em> to get started.</div>
             <div class="question-box">
                 <div class="title">Let's do this!</div>
+                <form action="example.com/path" method="post">
 
+                    <div>
+                        <label for="first_name">FIRST NAME</label>
+                        <input type="text" id="first_name">
+
+                        <label for="last_name">LAST NAME</label>
+                        <input type="text" id="last_name">
+                    </div>
+
+                    <div>
+                        <label for="user_email">EMAIL</label>
+                        <input type="email" id="user_email" name="email">
+
+                        <label for="phone_number">PHONE NUMBER</label>
+                        <input type="text" id="phone_number">
+                    </div>
+
+                    <div>
+                        <label for="user_password">PASSWORD</label>
+                        <input type="password" id="user_password" name="password">
+
+                        <label for="user_password">CONFIRM PASSWORD</label>
+                        <input type="password" id="user_password" name="password">
+                    </div>
+
+                </form>
             </div>
-            <button></button>
+            <button type="submit">Create Account</button>
             <div class="login"> Already have an account? <span id="green">Log in</span></div>
         </div>
     </div>

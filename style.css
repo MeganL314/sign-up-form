@@ -31,7 +31,7 @@
     inset-block-start: 100px;
     color: white;
     width: 400px;
-    height: 150px;
+    height: 115px;
 }
 
 .logo-contents {
@@ -69,4 +69,34 @@ a {
     color: white;
     text-align: center;
     font-size: 10px;
+}
+
+.right-side {
+    padding-top: 60px;
+    background-color: rgb(241, 240, 240);
+}
+
+.question-box {
+    background-color: white;
+    padding: 10px 30px 30px;
+}
+
+.right-title {
+    margin-bottom: 20px;
+    padding: 30px;
+    font-size: 20px;
+}
+
+.title {
+    margin-bottom: 10px;
+
+}
+
+button, .login {
+    margin: 15px 30px;
+
+}
+
+.login {
+    font-size: 14px;
 }
